@@ -125,7 +125,7 @@ public class Arrays {
                     high = mid - 1;
             }
         }
-        return -(low + 1);  // key not found.
+        return -(low + 1);
     }
 
     public static int binarySearch(int[] a, int key) {
@@ -233,9 +233,9 @@ public class Arrays {
             else if (cmp > 0)
                 high = mid - 1;
             else
-                return mid; // key found
+                return mid;
         }
-        return -(low + 1);  // key not found.
+        return -(low + 1);
     }
 
     public static void rangeCheck(int arrayLength, int fromIndex, int toIndex) {

@@ -50,9 +50,9 @@ public class Collections {
             else if (cmp > 0)
                 high = mid - 1;
             else
-                return mid; // key found
+                return mid;
         }
-        return -(low + 1);  // key not found
+        return -(low + 1);
     }
 
     private static <T> T get(ListIterator<? extends T> i, int index) {
